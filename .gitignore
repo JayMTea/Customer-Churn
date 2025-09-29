@@ -1,0 +1,51 @@
+# === Keep Only Project Files ===
+!Customer\ Churn.ipynb
+!Bluebeam-churn_model-Report.docx
+!Bluebeam-churn_model-Report.pdf
+!Bluebeam-churn_model.pdf
+!Bluebeam-churn_model.html
+!wide_margins.css
+!Report\ -\ Bluebeam.docx
+!GreenwallTech_churn\ Assessment.docx
+!GreenwallTech_churn.csv
+
+# === Ignore Everything Else by Default ===
+*
+
+# === Allow Git to Track the .gitignore File ===
+!.gitignore
+
+# === Ignore Common OS Files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === Ignore Python Artifacts ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*~
+
+# === Ignore Other Build / Cache Artifacts ===
+.cache/
+dist/
+build/
+*.sqlite3
